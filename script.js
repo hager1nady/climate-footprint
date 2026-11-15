@@ -41,7 +41,7 @@
   });
   const openIntro = () => { intro.hidden = false; $('#introStart').focus(); };
   const closeIntro = () => { intro.hidden = true; store.set('cf_intro_seen', true); };
-  $('#introStart').addEventListener('click', closeIntro);
+  // $('#introStart').addEventListener('click', closeIntro);
   $('#aboutBtn').addEventListener('click', openIntro);
   document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && !intro.hidden) closeIntro(); });
 
