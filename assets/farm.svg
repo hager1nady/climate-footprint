@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img" aria-label="زراعة ذكية بالري بالتنقيط وحساس رطوبة"><defs><linearGradient id="s" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#dff3fb"/><stop offset="1" stop-color="#f3fbf6"/></linearGradient></defs><rect width="400" height="240" rx="20" fill="url(#s)"/>
+<rect y="170" width="400" height="70" fill="#8d6e4a"/><rect y="170" width="400" height="10" fill="#6b4f33"/>
+<path d="M30 160h340" stroke="#1b83a8" stroke-width="5"/>
+<g fill="#1b83a8"><path d="M80 166q-6 12 0 16q6-4 0-16zM190 166q-6 12 0 16q6-4 0-16zM300 166q-6 12 0 16q6-4 0-16z"/></g>
+<g fill="#2f9e66"><path d="M80 170c-24-8-26-34-26-34 22 2 30 14 26 34zM80 170c24-8 26-34 26-34-22 2-30 14-26 34zM190 170c-24-8-26-34-26-34 22 2 30 14 26 34zM190 170c24-8 26-34 26-34-22 2-30 14-26 34zM300 170c-24-8-26-34-26-34 22 2 30 14 26 34zM300 170c24-8 26-34 26-34-22 2-30 14-26 34z"/></g>
+<g transform="translate(240 70)"><rect x="-4" y="0" width="8" height="90" fill="#0b4f36"/><rect x="-26" y="-34" width="52" height="34" rx="6" fill="#0b4f36"/><circle cx="-10" cy="-17" r="5" fill="#52b788"/><path d="M6-22h12M6-12h8" stroke="#e3f3f9" stroke-width="3" stroke-linecap="round"/></g></svg>

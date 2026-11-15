@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img" aria-label="قطرة ماء وصنبور موفر"><defs><linearGradient id="s" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#dff3fb"/><stop offset="1" stop-color="#f3fbf6"/></linearGradient></defs><rect width="400" height="240" rx="20" fill="url(#s)"/>
+<rect y="200" width="400" height="40" fill="#bfe3f1"/>
+<path d="M200 40c40 50 62 80 62 112a62 62 0 0 1-124 0c0-32 22-62 62-112z" fill="#1b83a8"/>
+<path d="M170 140c0 18 10 30 24 34" stroke="#e3f3f9" stroke-width="8" fill="none" stroke-linecap="round"/>
+<g fill="none" stroke="#0b4f36" stroke-width="6" stroke-linecap="round"><path d="M60 80h50v20"/><path d="M290 70h50v20"/></g>
+<path d="M85 112q-5 10 0 14q5-4 0-14z" fill="#1b83a8"/><path d="M315 102q-5 10 0 14q5-4 0-14z" fill="#1b83a8"/>
+<g stroke="#2f9e66" stroke-width="5" stroke-linecap="round"><path d="M330 200c0-20 10-30 20-38M350 200c4-18 16-26 28-30"/></g></svg>

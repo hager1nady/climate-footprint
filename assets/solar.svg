@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img" aria-label="ألواح شمسية وتوربينات رياح"><defs><linearGradient id="s" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#dff3fb"/><stop offset="1" stop-color="#f3fbf6"/></linearGradient></defs><rect width="400" height="240" rx="20" fill="url(#s)"/>
+<circle cx="330" cy="50" r="26" fill="#ffd166"/><rect y="190" width="400" height="50" fill="#52b788"/>
+<g transform="translate(60 120) skewX(-15)"><rect width="150" height="70" fill="#1b83a8" stroke="#0b4f36" stroke-width="4"/><path d="M50 0v70M100 0v70M0 35h150" stroke="#e3f3f9" stroke-width="3"/></g>
+<path d="M100 190v-30M180 190v-30" stroke="#0b4f36" stroke-width="5"/>
+<g transform="translate(300 90)"><path d="M0 0v100" stroke="#fff" stroke-width="7"/><g stroke="#fff" stroke-width="6" stroke-linecap="round"><path d="M0 0L0-45M0 0L39 22M0 0L-39 22"/></g><circle r="6" fill="#0b4f36"/></g></svg>

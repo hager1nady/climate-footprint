@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>بصمتك المناخية | Climate Footprint</title>
+<meta name="description" content="موقع تعليمي تفاعلي للتوعية بالتغير المناخي وتأثير سلوكياتنا اليومية على البيئة.">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#main">تخطَّ إلى المحتوى</a>
+
+<!-- شاشة التعريف بالمشروع -->
+<div id="intro" class="intro" role="dialog" aria-modal="true" aria-labelledby="introTitle" hidden>
+  <div class="intro-card">
+    <img src="assets/hero.svg" alt="" width="220" height="174">
+    <h2 id="introTitle">بصمتك المناخية <small>Climate Footprint</small></h2>
+    <p>موقع تعليمي تفاعلي يساعدك على فهم التغير المناخي، وإدراك أثر عاداتك اليومية في الكهرباء والمياه والنقل، واكتشاف حلول عملية وتقنية لتقليل هذا الأثر.</p>
+    <ul>
+      <li>نفهم معًا ما هو التغير المناخي ولماذا يهمنا.</li>
+      <li>نقيس عاداتنا بمؤشر توعوي تقديري (وليس قياسًا علميًا دقيقًا).</li>
+      <li>نتعرف على حلول تقنية ونختبر معلوماتنا وننفذ تحديًا يوميًا.</li>
+    </ul>
+    <button class="btn" id="introStart" type="button">ابدأ الرحلة</button>
+  </div>
+</div>
+
+<header class="top">
+  <a class="brand" href="#home"><img src="assets/favicon.svg" alt="" width="32" height="32"><span>بصمتك المناخية</span></a>
+  <button id="menuBtn" class="menu-btn" type="button" aria-expanded="false" aria-controls="menu" aria-label="القائمة">☰</button>
+  <nav id="menu" class="menu" aria-label="التنقل الرئيسي">
+    <a href="#home" data-view="home">الرئيسية</a>
+    <a href="#calc" data-view="calc">حاسبة البصمة</a>
+    <a href="#solutions" data-view="solutions">الحلول التكنولوجية</a>
+    <a href="#quiz" data-view="quiz">اختبر معلوماتك</a>
+    <a href="#challenge" data-view="challenge">تحدي اليوم</a>
+    <button id="aboutBtn" class="link-btn" type="button">عن المشروع</button>
+  </nav>
+</header>
+
+<main id="main" tabindex="-1">
+
+<!-- 1. الرئيسية -->
+<section id="home" class="view" aria-labelledby="homeTitle">
+  <div class="hero">
+    <div>
+      <h1 id="homeTitle">كل خطوة نخطوها تترك أثرًا على كوكبنا</h1>
+      <p class="lead">تعلَّم كيف تؤثر عاداتك اليومية في المناخ، وجرّب أدوات بسيطة لتغيير سلوكك نحو الأفضل.</p>
+      <div class="actions">
+        <a class="btn" href="#calc">احسب بصمتك</a>
+        <a class="btn ghost" href="#solutions">اكتشف الحلول</a>
+      </div>
+    </div>
+    <img src="assets/hero.svg" alt="رسم توضيحي لكوكب الأرض ببصمة قدم خضراء" width="480" height="380">
+  </div>
+
+  <h2>أهداف المشروع</h2>
+  <div class="grid3">
+    <article class="card"><span class="ico" aria-hidden="true">🌍</span><h3>الوعي</h3><p>فهم التغير المناخي ودور الأنشطة البشرية فيه، اعتمادًا على مصادر علمية موثوقة.</p></article>
+    <article class="card"><span class="ico" aria-hidden="true">🧭</span><h3>التأمل في السلوك</h3><p>ربط عاداتنا في الكهرباء والمياه والنقل بأثرها البيئي عبر مؤشر توعوي بسيط.</p></article>
+    <article class="card"><span class="ico" aria-hidden="true">🌱</span><h3>الفعل</h3><p>التعرف على حلول عملية وتقنية، وتنفيذ تحدٍّ بيئي صغير كل يوم.</p></article>
+  </div>
+
+  <h2>ما التغير المناخي؟</h2>
+  <div class="card prose">
+    <p>الطقس هو حالة الجو في وقت ومكان محددين، أما <strong>المناخ</strong> فهو متوسط الطقس على مدى سنوات طويلة. يشير التغير المناخي إلى تحولات طويلة المدى في درجات الحرارة وأنماط الطقس. وتفيد الهيئات العلمية الدولية بأن الأنشطة البشرية، وفي مقدمتها حرق الوقود الأحفوري، هي المحرك الرئيسي لهذه التغيرات منذ القرن التاسع عشر.</p>
+    <p class="src">المصادر: <a href="https://climate.nasa.gov" target="_blank" rel="noopener">NASA Climate</a> · <a href="https://www.un.org/en/climatechange" target="_blank" rel="noopener">الأمم المتحدة – العمل المناخي</a> · <a href="https://www.ipcc.ch" target="_blank" rel="noopener">IPCC</a></p>
+  </div>
+
+  <h2>المصادر المرجعية</h2>
+  <ul class="sources">
+    <li><a href="https://climate.nasa.gov" target="_blank" rel="noopener">NASA – Climate Change</a> الأساسيات العلمية</li>
+    <li><a href="https://www.ipcc.ch" target="_blank" rel="noopener">IPCC</a> التقارير الدولية عن المناخ</li>
+    <li><a href="https://www.unep.org" target="_blank" rel="noopener">UNEP</a> برنامج الأمم المتحدة للبيئة</li>
+    <li><a href="https://www.iea.org" target="_blank" rel="noopener">IEA</a> وكالة الطاقة الدولية</li>
+    <li><a href="https://www.fao.org" target="_blank" rel="noopener">FAO</a> منظمة الأغذية والزراعة</li>
+    <li><a href="https://www.unwater.org" target="_blank" rel="noopener">UN-Water</a> المياه والمناخ</li>
+    <li><a href="https://www.sgi.gov.sa" target="_blank" rel="noopener">مبادرة السعودية الخضراء</a></li>
+  </ul>
+  <p class="note">الروابط تحتاج إلى اتصال بالإنترنت، أما بقية الموقع فيعمل دون اتصال.</p>
+</section>
+
+<!-- 2. الحاسبة -->
+<section id="calc" class="view" aria-labelledby="calcTitle" hidden>
+  <h1 id="calcTitle">حاسبة البصمة المناخية</h1>
+  <p class="warn"><strong>تنبيه:</strong> هذا مؤشر <strong>توعوي تقديري</strong> يعتمد على وصفك لعاداتك، وليس قياسًا علميًا لكمية الانبعاثات. لا يستخدم أرقامًا أو معادلات كربونية، وهدفه التفكير في العادات فقط.</p>
+  <form id="calcForm" novalidate></form>
+  <p id="calcError" class="error" role="alert" hidden></p>
+  <div id="calcResult" class="card result" aria-live="polite" tabindex="-1" hidden></div>
+</section>
+
+<!-- 3. الحلول -->
+<section id="solutions" class="view" aria-labelledby="solTitle" hidden>
+  <h1 id="solTitle">الحلول التكنولوجية</h1>
+  <p class="lead">اضغط على أي حل لتعرف فكرته وأثره وأمثلة عليه.</p>
+  <div id="solList" class="sol-list"></div>
+</section>
+
+<!-- 4. الاختبار -->
+<section id="quiz" class="view" aria-labelledby="quizTitle" hidden>
+  <h1 id="quizTitle">اختبر معلوماتك</h1>
+  <div id="quizBox" class="card"></div>
+</section>
+
+<!-- 5. التحدي -->
+<section id="challenge" class="view" aria-labelledby="chTitle" hidden>
+  <h1 id="chTitle">تحدي اليوم</h1>
+  <div class="card challenge">
+    <p class="chip" id="chCat"></p>
+    <h2 id="chText"></h2>
+    <p id="chWhy"></p>
+    <div class="actions">
+      <button class="btn" id="chDone" type="button">أنجزت التحدي ✓</button>
+      <button class="btn ghost" id="chNext" type="button">تحدٍّ آخر</button>
+    </div>
+    <p id="chMsg" class="ok" role="status"></p>
+    <p class="note">التحديات المنجزة على هذا الجهاز: <strong id="chCount">0</strong></p>
+  </div>
+</section>
+</main>
+
+<footer class="foot">
+  <p>مشروع تعليمي لمسابقة «بصمتك المناخية». المحتوى للتوعية العامة ولا يغني عن المراجع العلمية.</p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
